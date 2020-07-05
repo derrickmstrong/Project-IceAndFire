@@ -66,7 +66,9 @@ const App = () => {
   return (
     <Fragment>
       <div className='d-flex flex-column m-3'>
-        <h1 className='text-center'>Game of Thrones Houses</h1>
+        <h1 className='text-center'>Game of Thrones</h1>
+        <h2 className='text-center'>Houses</h2>
+
         <button
           className='d-flex justify-content-center btn btn-primary p-2 mt-3 mx-5'
           onClick={fetchAPI}>
