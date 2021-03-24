@@ -19,7 +19,7 @@ const App = () => {
     houses &&
     houses.map((house, index) => {
       return (
-        <div key={index} className='card m-3 ' style={{ width: '18rem' }}>
+        <div key={index} className='card m-3' style={{ width: '18rem' }}>
           {index % 2 === 0 ? (
             <img
               src='https://images.pexels.com/photos/189389/pexels-photo-189389.jpeg?cs=srgb&dl=black-and-gray-ice-189389.jpg&fm=jpg'
